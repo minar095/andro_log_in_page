@@ -71,7 +71,9 @@
                     android:text=")"
                     android:textSize="25sp"
                     android:layout_weight="1"
-                    android:background="@drawable/rounded_btn"
+                    android:backgroundT="@dr"
+                    android:background="@color/yellow"
+                    android:backgroundTint=""
                     android:textStyle="bold"
                     android:layout_marginRight="8dp"/>
 
@@ -262,6 +264,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:text="0"
+                    style="@style/Widget.Material3.Button.TextButton.Dialog.Icon"
                     android:textSize="25sp"
                     android:layout_weight="1"
                     android:background="@drawable/rounded_btn"
